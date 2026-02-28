@@ -71,11 +71,11 @@ export const DATA = {
   work: [
     {
       company: "hubble",
-      href: "https://hubble.exchange",
+      href: "https://hubble.social",
       badges: [],
       location: "Remote",
       title: "Full Stack Engineer",
-      logoUrl: "",
+      logoUrl: "/hubble.png",
       start: "2024",
       end: "Present",
       description:
@@ -83,11 +83,11 @@ export const DATA = {
     },
     {
       company: "Circles",
-      href: "#",
+      href: "https://circleapp.com.br",
       badges: [],
       location: "Remote",
       title: "Software Engineer",
-      logoUrl: "",
+      logoUrl: "/circles.ico",
       start: "2022",
       end: "2024",
       description:
@@ -95,11 +95,11 @@ export const DATA = {
     },
     {
       company: "Aucto",
-      href: "#",
+      href: "https://aucto.com",
       badges: [],
       location: "Remote",
       title: "Software Engineer",
-      logoUrl: "",
+      logoUrl: "/aucto.png",
       start: "2021",
       end: "2022",
       description:
@@ -131,11 +131,11 @@ export const DATA = {
     },
     {
       company: "Vibe Tecnologia",
-      href: "#",
+      href: "https://vibetecnologia.com",
       badges: [],
       location: "Brazil",
       title: "Software Engineer",
-      logoUrl: "",
+      logoUrl: "/vibe.png",
       start: "2018",
       end: "2019",
       description:
@@ -168,7 +168,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "https://opengraph.githubassets.com/1/luccardoso51/DropDrive-frontend",
       video: "",
     },
     {
@@ -186,7 +186,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "https://opengraph.githubassets.com/1/luccardoso51/FindDEV",
       video: "",
     },
     {
@@ -204,7 +204,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "https://opengraph.githubassets.com/1/luccardoso51/ticket-project",
       video: "",
     },
   ],
