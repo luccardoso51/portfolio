@@ -18,7 +18,7 @@ export const DATA = {
     "Full Stack Engineer passionate about building innovative solutions that drive user satisfaction and business growth.",
   summary:
     "I'm a Full Stack Engineer with a strong background in product management, design, and software development. I specialize in JavaScript, TypeScript, React, Next.js, React Native, and Node.js, and thrive in cross-functional teams where I can combine technical expertise with a user-centric mindset.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.jpg",
   skills: [
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
