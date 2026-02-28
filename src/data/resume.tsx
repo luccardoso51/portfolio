@@ -6,36 +6,26 @@ import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
 import { Typescript } from "@/components/ui/svgs/typescript";
 import { Nodejs } from "@/components/ui/svgs/nodejs";
 import { Python } from "@/components/ui/svgs/python";
-import { Golang } from "@/components/ui/svgs/golang";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
-import { Docker } from "@/components/ui/svgs/docker";
-import { Kubernetes } from "@/components/ui/svgs/kubernetes";
-import { Java } from "@/components/ui/svgs/java";
-import { Csharp } from "@/components/ui/svgs/csharp";
 
 export const DATA = {
-  name: "Your Name",
-  initials: "YN",
-  url: "https://yourportfolio.dev",
-  location: "Your City, Country",
-  locationLink: "https://www.google.com/maps/place/yourcity",
+  name: "Lucas Cardoso",
+  initials: "LC",
+  url: "https://portfolio-one-sandy-84.vercel.app",
+  location: "Brazil",
+  locationLink: "https://www.google.com/maps/place/brazil",
   description:
-    "Software Engineer passionate about building great products and helping people.",
+    "Full Stack Engineer passionate about building innovative solutions that drive user satisfaction and business growth.",
   summary:
-    "I'm a software engineer with experience building web applications. I enjoy working across the stack and am always looking for new challenges.",
+    "I'm a Full Stack Engineer with a strong background in product management, design, and software development. I specialize in JavaScript, TypeScript, React, Next.js, React Native, and Node.js, and thrive in cross-functional teams where I can combine technical expertise with a user-centric mindset.",
   avatarUrl: "/me.png",
   skills: [
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
-    { name: "Typescript", icon: Typescript },
+    { name: "TypeScript", icon: Typescript },
     { name: "Node.js", icon: Nodejs },
     { name: "Python", icon: Python },
-    { name: "Go", icon: Golang },
-    { name: "Postgres", icon: Postgresql },
-    { name: "Docker", icon: Docker },
-    { name: "Kubernetes", icon: Kubernetes },
-    { name: "Java", icon: Java },
-    { name: "C++", icon: Csharp },
+    { name: "PostgreSQL", icon: Postgresql },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -43,31 +33,31 @@ export const DATA = {
   ],
   contact: {
     email: "hello@example.com",
-    tel: "+10000000000",
+    tel: "",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/yourusername",
+        url: "https://github.com/luccardoso51",
         icon: Icons.github,
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://linkedin.com/in/yourusername",
+        url: "https://linkedin.com/in/lucascardoso51",
         icon: Icons.linkedin,
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://x.com/yourusername",
+        url: "#",
         icon: Icons.x,
-        navbar: true,
+        navbar: false,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://youtube.com/@yourusername",
+        url: "#",
         icon: Icons.youtube,
-        navbar: true,
+        navbar: false,
       },
       email: {
         name: "Send Email",
@@ -80,48 +70,138 @@ export const DATA = {
 
   work: [
     {
-      company: "Example Company",
-      href: "https://example.com",
+      company: "hubble",
+      href: "https://hubble.exchange",
+      badges: [],
+      location: "Remote",
+      title: "Full Stack Engineer",
+      logoUrl: "",
+      start: "2024",
+      end: "Present",
+      description:
+        "Building full-stack features for a modern web platform using React, TypeScript, and Node.js. Contributing to architecture decisions and collaborating across product, design, and engineering to ship high-quality user experiences.",
+    },
+    {
+      company: "Circles",
+      href: "#",
       badges: [],
       location: "Remote",
       title: "Software Engineer",
       logoUrl: "",
-      start: "Jan 2023",
-      end: "Present",
+      start: "2022",
+      end: "2024",
       description:
-        "Built and maintained full-stack web applications. Collaborated with cross-functional teams to deliver features on time.",
+        "Developed and maintained web and mobile applications. Led frontend architecture decisions, optimizing performance and scalability across the stack.",
+    },
+    {
+      company: "Aucto",
+      href: "#",
+      badges: [],
+      location: "Remote",
+      title: "Software Engineer",
+      logoUrl: "",
+      start: "2021",
+      end: "2022",
+      description:
+        "Led optimization of a marketplace and SaaS platform. Designed and implemented a messaging system and scoped notification systems to improve user engagement and retention.",
+    },
+    {
+      company: "Pertinho de Casa",
+      href: "#",
+      badges: [],
+      location: "Brazil",
+      title: "Product Engineer",
+      logoUrl: "",
+      start: "2020",
+      end: "2022",
+      description:
+        "Joined as a Product Engineer on a non-profit initiative by Rede Asta and Accenture, aimed at strengthening local economies across Brazilian cities. The platform grew to serve 31K+ sellers and 10K+ monthly users as a free alternative to delivery apps.",
+    },
+    {
+      company: "Aua",
+      href: "#",
+      badges: [],
+      location: "Brazil",
+      title: "Software Engineer",
+      logoUrl: "",
+      start: "2019",
+      end: "2022",
+      description:
+        "Engineered scalable web and mobile solutions for a B2B2C social business supporting local entrepreneurs and small businesses in northern Brazil. Contributed to a 300% increase in sales through data-driven optimization. Aua was successfully acquired by Pertinho de Casa after two and a half years.",
+    },
+    {
+      company: "Vibe Tecnologia",
+      href: "#",
+      badges: [],
+      location: "Brazil",
+      title: "Software Engineer",
+      logoUrl: "",
+      start: "2018",
+      end: "2019",
+      description:
+        "Developed software solutions using JavaScript and TypeScript. Contributed to web application development and helped establish engineering best practices within the team.",
     },
   ],
   education: [
     {
-      school: "Example University",
-      href: "https://example.edu",
-      degree: "Bachelor's Degree of Computer Science",
+      school: "Your University",
+      href: "#",
+      degree: "Your Degree",
       logoUrl: "",
-      start: "2019",
-      end: "2023",
+      start: "20XX",
+      end: "20XX",
     },
   ],
   projects: [
     {
-      title: "Example Project",
-      href: "https://example.com",
-      dates: "Jan 2024 - Present",
+      title: "DropDrive",
+      href: "https://github.com/luccardoso51/DropDrive-frontend",
+      dates: "2022",
       active: true,
       description:
-        "An example project showcasing my skills in building modern web applications.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-      ],
+        "A Dropbox-inspired file storage and sharing application with a React frontend and mobile companion app.",
+      technologies: ["React", "React Native", "JavaScript"],
       links: [
         {
-          type: "Website",
-          href: "https://example.com",
-          icon: <Icons.globe className="size-3" />,
+          type: "Source",
+          href: "https://github.com/luccardoso51/DropDrive-frontend",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "FindDEV",
+      href: "https://github.com/luccardoso51/FindDEV",
+      dates: "2021",
+      active: true,
+      description:
+        "Location-based mobile app for discovering nearby developers, built with React Native.",
+      technologies: ["React Native", "JavaScript"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/luccardoso51/FindDEV",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Ticket Project",
+      href: "https://github.com/luccardoso51/ticket-project",
+      dates: "2021",
+      active: true,
+      description:
+        "Full-stack ticketing solution for purchasing and managing event tickets, built with TypeScript.",
+      technologies: ["TypeScript", "Node.js"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/luccardoso51/ticket-project",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
