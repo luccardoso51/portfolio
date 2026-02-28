@@ -43,7 +43,7 @@ Company logos are in `/public/`:
 | `/circles.ico` | Circles (circleapp.com.br) |
 | `/aucto.png` | Aucto (aucto.com) |
 | `/vibe.png` | Vibe Tecnologia |
-| `/me.png` | Avatar — replace with real photo |
+| `/me.jpg` | Avatar photo |
 
 Logos still missing (blocked/defunct): Pertinho de Casa, Aua.
 To add: save as `/public/pertinho.png` and `/public/aua.png`, then set `logoUrl` in `resume.tsx`.
@@ -61,7 +61,7 @@ summary: "Short description"
 
 ## Known TODOs
 
-- [ ] Replace `/public/me.png` with real avatar photo
+- [x] Replace avatar with real photo (`/public/me.jpg`)
 - [ ] Fill in education (school, degree, dates)
 - [ ] Verify/correct work experience dates
 - [ ] Add X and YouTube handles to `contact.social` (currently `navbar: false`)
