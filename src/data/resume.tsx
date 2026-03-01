@@ -43,7 +43,18 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true
       },
-
+      X: {
+        name: 'X',
+        url: '#',
+        icon: Icons.x,
+        navbar: false
+      },
+      Youtube: {
+        name: 'Youtube',
+        url: '#',
+        icon: Icons.youtube,
+        navbar: false
+      },
       email: {
         name: 'Send Email',
         url: 'mailto:lucascardoso0051@gmail.com',
