@@ -9,7 +9,7 @@ import { Nodejs } from '@/components/ui/svgs/nodejs';
 export const DATA = {
   name: 'Lucas Cardoso',
   initials: 'LC',
-  url: 'https://portfolio-one-sandy-84.vercel.app',
+  url: 'https://lucascardoso.com',
   location: 'Belém, PA, Brazil',
   locationLink: 'https://www.google.com/maps/place/Belem,State+of+Para,Brazil',
   description:
