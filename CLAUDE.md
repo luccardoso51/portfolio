@@ -40,13 +40,11 @@ Company logos are in `/public/`:
 | File | Company |
 |---|---|
 | `/hubble.png` | hubble (hubble.social) |
-| `/circles.ico` | Circles (circleapp.com.br) |
 | `/aucto.png` | Aucto (aucto.com) |
-| `/vibe.png` | Vibe Tecnologia |
+| `/pertinho_de_casa_logo.jpeg` | Pertinho de Casa |
+| `/Aua-logo.jpeg` | AUA - Compre do Pequeno |
+| `/bitx_logo.jpeg` | BitX Software House |
 | `/me.jpg` | Avatar photo |
-
-Logos still missing (blocked/defunct): Pertinho de Casa, Aua.
-To add: save as `/public/pertinho.png` and `/public/aua.png`, then set `logoUrl` in `resume.tsx`.
 
 ## Blog
 
@@ -62,11 +60,12 @@ summary: "Short description"
 ## Known TODOs
 
 - [x] Replace avatar with real photo (`/public/me.jpg`)
-- [ ] Fill in education (school, degree, dates)
-- [ ] Verify/correct work experience dates
+- [x] Fill in education (Federal University of Pará, Computer Engineering, 2017–2021)
+- [x] Verify/correct work experience dates (confirmed via résumé)
+- [x] Add missing logos: Pertinho de Casa, AUA, BitX
+- [x] Set personal email in `contact.email`
 - [ ] Add X and YouTube handles to `contact.social` (currently `navbar: false`)
-- [ ] Add missing logos: Pertinho de Casa, Aua
-- [ ] Set personal email in `contact.email`
+- [ ] Add UFPA logo to `/public/` and set `logoUrl` in education entry
 - [ ] Set a custom Vercel domain (optional)
 
 ## Common commands

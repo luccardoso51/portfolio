@@ -1,212 +1,186 @@
-import type { ReactNode } from "react";
-import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
-import { ReactLight } from "@/components/ui/svgs/reactLight";
-import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
-import { Typescript } from "@/components/ui/svgs/typescript";
-import { Nodejs } from "@/components/ui/svgs/nodejs";
-import { Python } from "@/components/ui/svgs/python";
-import { Postgresql } from "@/components/ui/svgs/postgresql";
+import type { ReactNode } from 'react';
+import { Icons } from '@/components/icons';
+import { HomeIcon, NotebookIcon } from 'lucide-react';
+import { ReactLight } from '@/components/ui/svgs/reactLight';
+import { NextjsIconDark } from '@/components/ui/svgs/nextjsIconDark';
+import { Typescript } from '@/components/ui/svgs/typescript';
+import { Nodejs } from '@/components/ui/svgs/nodejs';
 
 export const DATA = {
-  name: "Lucas Cardoso",
-  initials: "LC",
-  url: "https://portfolio-one-sandy-84.vercel.app",
-  location: "Brazil",
-  locationLink: "https://www.google.com/maps/place/brazil",
+  name: 'Lucas Cardoso',
+  initials: 'LC',
+  url: 'https://portfolio-one-sandy-84.vercel.app',
+  location: 'Belém, PA, Brazil',
+  locationLink: 'https://www.google.com/maps/place/Belem,State+of+Para,Brazil',
   description:
-    "Full Stack Engineer passionate about building innovative solutions that drive user satisfaction and business growth.",
+    'Full Stack Engineer passionate about building innovative solutions that drive user satisfaction and business growth.',
   summary:
-    "I'm a Full Stack Engineer with a strong background in product management, design, and software development. I specialize in JavaScript, TypeScript, React, Next.js, React Native, and Node.js, and thrive in cross-functional teams where I can combine technical expertise with a user-centric mindset.",
-  avatarUrl: "/me.jpg",
+    "I'm a Full Stack Engineer with a background spanning software development, product management, and UI/UX design. I specialize in JavaScript, TypeScript, React, Next.js, React Native, and Node.js, and thrive in cross-functional teams where I can combine technical expertise with a user-centric mindset.",
+  avatarUrl: '/me.jpg',
   skills: [
-    { name: "React", icon: ReactLight },
-    { name: "Next.js", icon: NextjsIconDark },
-    { name: "TypeScript", icon: Typescript },
-    { name: "Node.js", icon: Nodejs },
-    { name: "Python", icon: Python },
-    { name: "PostgreSQL", icon: Postgresql },
+    { name: 'React', icon: ReactLight },
+    { name: 'Next.js', icon: NextjsIconDark },
+    { name: 'TypeScript', icon: Typescript },
+    { name: 'Node.js', icon: Nodejs }
   ],
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: '/', icon: HomeIcon, label: 'Home' },
+    { href: '/blog', icon: NotebookIcon, label: 'Blog' }
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "",
+    email: 'lucascardoso0051@gmail.com',
+    tel: '+5591989346161',
     social: {
       GitHub: {
-        name: "GitHub",
-        url: "https://github.com/luccardoso51",
+        name: 'GitHub',
+        url: 'https://github.com/luccardoso51',
         icon: Icons.github,
-        navbar: true,
+        navbar: true
       },
       LinkedIn: {
-        name: "LinkedIn",
-        url: "https://linkedin.com/in/lucascardoso51",
+        name: 'LinkedIn',
+        url: 'https://linkedin.com/in/lucascardoso51',
         icon: Icons.linkedin,
-        navbar: true,
+        navbar: true
       },
-      X: {
-        name: "X",
-        url: "#",
-        icon: Icons.x,
-        navbar: false,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "#",
-        icon: Icons.youtube,
-        navbar: false,
-      },
+
       email: {
-        name: "Send Email",
-        url: "#",
+        name: 'Send Email',
+        url: 'mailto:lucascardoso0051@gmail.com',
         icon: Icons.email,
-        navbar: false,
-      },
-    },
+        navbar: false
+      }
+    }
   },
 
   work: [
     {
-      company: "hubble",
-      href: "https://hubble.social",
+      company: 'hubble',
+      href: 'https://hubble.social',
       badges: [],
-      location: "Remote",
-      title: "Full Stack Engineer",
-      logoUrl: "/hubble.png",
-      start: "2024",
-      end: "Present",
+      location: 'San Francisco, CA (Remote)',
+      title: 'Software Engineer',
+      logoUrl: '/hubble.png',
+      start: 'Oct 2024',
+      end: 'Present',
       description:
-        "Building full-stack features for a modern web platform using React, TypeScript, and Node.js. Contributing to architecture decisions and collaborating across product, design, and engineering to ship high-quality user experiences.",
+        'Launched and maintained responsive front-end applications using React, Next.js, and Tailwind CSS. Implemented a timezone-aware scheduling feature enabling users to book meetings with experts across any country. Built global state management with Zustand, conducted Figma design reviews, wrote unit tests, and delivered secure digital transaction features using Stripe.'
     },
     {
-      company: "Circles",
-      href: "https://circleapp.com.br",
+      company: 'Aucto',
+      href: 'https://aucto.com',
       badges: [],
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/circles.ico",
-      start: "2022",
-      end: "2024",
+      location: 'San Francisco, CA (Remote)',
+      title: 'Product Designer & Manager',
+      logoUrl: '/aucto.png',
+      start: 'Feb 2024',
+      end: 'Sep 2024',
       description:
-        "Developed and maintained web and mobile applications. Led frontend architecture decisions, optimizing performance and scalability across the stack.",
+        'Led development and optimization of the Aucto marketplace auction platform and SaaS, enhancing UX and driving conversion rates. Designed a messaging and notification system that enabled communication between buyers and sellers. Created and maintained technical documentation to support team onboarding and knowledge transfer.'
     },
     {
-      company: "Aucto",
-      href: "https://aucto.com",
+      company: 'Pertinho de Casa',
+      href: '#',
       badges: [],
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/aucto.png",
-      start: "2021",
-      end: "2022",
+      location: 'Belém, PA',
+      title: 'Product Engineer',
+      logoUrl: '/pertinho_de_casa_logo.jpeg',
+      start: 'May 2022',
+      end: 'Jan 2024',
       description:
-        "Led optimization of a marketplace and SaaS platform. Designed and implemented a messaging system and scoped notification systems to improve user engagement and retention.",
+        'Oversaw a national e-commerce platform with 30,000+ sellers and 10,000+ monthly users. Led technical architecture using React Native, Vue.js, TypeScript, and Node.js. Integrated React Query for efficient server-state management and data caching. Implemented product growth strategies that drove a 78% increase in new sellers on the platform.'
     },
     {
-      company: "Pertinho de Casa",
-      href: "#",
+      company: 'AUA - Compre do Pequeno',
+      href: '#',
       badges: [],
-      location: "Brazil",
-      title: "Product Engineer",
-      logoUrl: "",
-      start: "2020",
-      end: "2022",
+      location: 'Belém, PA',
+      title: 'Founder & Software Engineer',
+      logoUrl: '/Aua-logo.jpeg',
+      start: 'Dec 2019',
+      end: 'Nov 2022',
       description:
-        "Joined as a Product Engineer on a non-profit initiative by Rede Asta and Accenture, aimed at strengthening local economies across Brazilian cities. The platform grew to serve 31K+ sellers and 10K+ monthly users as a free alternative to delivery apps.",
+        'Founded a B2B2C social business supporting local entrepreneurship in two cities in northern Brazil, growing to 3K+ users. Led mobile app development with React Native including Google Maps geolocation. Used Firebase for event tracking and analytics to inform data-driven decisions. Built a web admin platform with Next.js and designed high-fidelity UI/UX prototypes in Adobe XD.'
     },
     {
-      company: "Aua",
-      href: "#",
+      company: 'BitX Software House',
+      href: '#',
       badges: [],
-      location: "Brazil",
-      title: "Software Engineer",
-      logoUrl: "",
-      start: "2019",
-      end: "2022",
+      location: 'Belém, PA',
+      title: 'Mobile Software Engineer',
+      logoUrl: '/bitx_logo.jpeg',
+      start: 'Apr 2018',
+      end: 'Feb 2020',
       description:
-        "Engineered scalable web and mobile solutions for a B2B2C social business supporting local entrepreneurs and small businesses in northern Brazil. Contributed to a 300% increase in sales through data-driven optimization. Aua was successfully acquired by Pertinho de Casa after two and a half years.",
-    },
-    {
-      company: "Vibe Tecnologia",
-      href: "https://vibetecnologia.com",
-      badges: [],
-      location: "Brazil",
-      title: "Software Engineer",
-      logoUrl: "/vibe.png",
-      start: "2018",
-      end: "2019",
-      description:
-        "Developed software solutions using JavaScript and TypeScript. Contributed to web application development and helped establish engineering best practices within the team.",
-    },
+        'Shipped 3 mobile apps using React Native, TypeScript, and Redux following agile methodology. Contributed to a mobile marketplace app with multi-category purchasing. Developed driver tracking and route display in a delivery system using React and Google Maps API. Built an accessible app for hiring medical services and delivered client MVPs using Expo.'
+    }
   ],
   education: [
     {
-      school: "Your University",
-      href: "#",
-      degree: "Your Degree",
-      logoUrl: "",
-      start: "20XX",
-      end: "20XX",
-    },
+      school: 'Federal University of Pará',
+      href: 'https://www.ufpa.br',
+      degree: 'B.S. in Computer Engineering',
+      logoUrl: '/ufpa-logo.jpeg',
+      start: '2017',
+      end: '2021'
+    }
   ],
   projects: [
     {
-      title: "DropDrive",
-      href: "https://github.com/luccardoso51/DropDrive-frontend",
-      dates: "2022",
+      title: 'DropDrive',
+      href: 'https://github.com/luccardoso51/DropDrive-frontend',
+      dates: '2022',
       active: true,
       description:
-        "A Dropbox-inspired file storage and sharing application with a React frontend and mobile companion app.",
-      technologies: ["React", "React Native", "JavaScript"],
+        'A Dropbox-inspired file storage and sharing application with a React frontend and mobile companion app.',
+      technologies: ['React', 'React Native', 'JavaScript'],
       links: [
         {
-          type: "Source",
-          href: "https://github.com/luccardoso51/DropDrive-frontend",
-          icon: <Icons.github className="size-3" />,
-        },
+          type: 'Source',
+          href: 'https://github.com/luccardoso51/DropDrive-frontend',
+          icon: <Icons.github className="size-3" />
+        }
       ],
-      image: "https://opengraph.githubassets.com/1/luccardoso51/DropDrive-frontend",
-      video: "",
+      image:
+        'https://opengraph.githubassets.com/1/luccardoso51/DropDrive-frontend',
+      video: ''
     },
     {
-      title: "FindDEV",
-      href: "https://github.com/luccardoso51/FindDEV",
-      dates: "2021",
+      title: 'FindDEV',
+      href: 'https://github.com/luccardoso51/FindDEV',
+      dates: '2021',
       active: true,
       description:
-        "Location-based mobile app for discovering nearby developers, built with React Native.",
-      technologies: ["React Native", "JavaScript"],
+        'Location-based mobile app for discovering nearby developers, built with React Native.',
+      technologies: ['React Native', 'JavaScript'],
       links: [
         {
-          type: "Source",
-          href: "https://github.com/luccardoso51/FindDEV",
-          icon: <Icons.github className="size-3" />,
-        },
+          type: 'Source',
+          href: 'https://github.com/luccardoso51/FindDEV',
+          icon: <Icons.github className="size-3" />
+        }
       ],
-      image: "https://opengraph.githubassets.com/1/luccardoso51/FindDEV",
-      video: "",
+      image: 'https://opengraph.githubassets.com/1/luccardoso51/FindDEV',
+      video: ''
     },
     {
-      title: "Ticket Project",
-      href: "https://github.com/luccardoso51/ticket-project",
-      dates: "2021",
+      title: 'Ticket Project',
+      href: 'https://github.com/luccardoso51/ticket-project',
+      dates: '2021',
       active: true,
       description:
-        "Full-stack ticketing solution for purchasing and managing event tickets, built with TypeScript.",
-      technologies: ["TypeScript", "Node.js"],
+        'Full-stack ticketing solution for purchasing and managing event tickets, built with TypeScript.',
+      technologies: ['TypeScript', 'Node.js'],
       links: [
         {
-          type: "Source",
-          href: "https://github.com/luccardoso51/ticket-project",
-          icon: <Icons.github className="size-3" />,
-        },
+          type: 'Source',
+          href: 'https://github.com/luccardoso51/ticket-project',
+          icon: <Icons.github className="size-3" />
+        }
       ],
-      image: "https://opengraph.githubassets.com/1/luccardoso51/ticket-project",
-      video: "",
-    },
+      image: 'https://opengraph.githubassets.com/1/luccardoso51/ticket-project',
+      video: ''
+    }
   ],
   hackathons: [] as Array<{
     title: string;
@@ -218,5 +192,5 @@ export const DATA = {
     win?: string;
     icon?: string;
     links: Array<{ title: string; icon: ReactNode; href: string }>;
-  }>,
+  }>
 };
