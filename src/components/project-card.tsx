@@ -15,13 +15,17 @@ function ProjectImage({ src, alt }: { src: string; alt: string }) {
     return <div className="w-full h-48 bg-muted" />;
   }
 
+  const isLogo = src.startsWith("/");
+
   return (
-    <img
-      src={src}
-      alt={alt}
-      className="w-full h-48 object-cover"
-      onError={() => setImageError(true)}
-    />
+    <div className={isLogo ? "w-full h-48 bg-muted flex items-center justify-center p-8" : "w-full h-48"}>
+      <img
+        src={src}
+        alt={alt}
+        className={isLogo ? "max-h-full max-w-full object-contain" : "w-full h-full object-cover"}
+        onError={() => setImageError(true)}
+      />
+    </div>
   );
 }
 
