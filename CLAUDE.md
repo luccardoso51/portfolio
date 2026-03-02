@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Status
 
-Portfolio is live and personalized with Lucas Cardoso's profile data.
+Portfolio is live at https://lucascardoso.com with full SEO infrastructure and Google Analytics.
 
 ## Stack
 
@@ -57,6 +57,16 @@ summary: "Short description"
 ---
 ```
 
+## SEO & Analytics
+
+- **GA4 Measurement ID**: `G-DC4HJNGM0N` — injected via `next/script` in `src/app/layout.tsx`
+- **Sitemap**: `src/app/sitemap.ts` — auto-generates `/sitemap.xml` (homepage, blog index, all posts)
+- **Robots**: `src/app/robots.ts` — allows all crawlers, references sitemap
+- **JSON-LD Person schema**: injected in `src/app/page.tsx` for Google rich results
+- **Default theme**: dark mode (`defaultTheme="dark"` in `src/app/layout.tsx`)
+- Submit sitemap in Google Search Console: `https://lucascardoso.com/sitemap.xml`
+- Validate Person schema at https://search.google.com/test/rich-results
+
 ## Known TODOs
 
 - [x] Replace avatar with real photo (`/public/me.jpg`)
@@ -64,8 +74,10 @@ summary: "Short description"
 - [x] Verify/correct work experience dates (confirmed via résumé)
 - [x] Add missing logos: Pertinho de Casa, AUA, BitX
 - [x] Set personal email in `contact.email`
+- [x] Add sitemap, robots.txt, GA4, and JSON-LD Person schema
 - [ ] Add X and YouTube handles to `contact.social` (currently `navbar: false`)
 - [ ] Add UFPA logo to `/public/` and set `logoUrl` in education entry
+- [ ] Submit sitemap in Google Search Console
 - [ ] Set a custom Vercel domain (optional)
 
 ## Common commands
