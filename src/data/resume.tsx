@@ -23,9 +23,7 @@ export const DATA = {
     { name: 'TypeScript', icon: Typescript },
     { name: 'Node.js', icon: Nodejs }
   ],
-  navbar: [
-    { href: '/', icon: HomeIcon, label: 'Home' },
-  ],
+  navbar: [{ href: '/', icon: HomeIcon, label: 'Home' }],
   contact: {
     email: 'lucascardoso0051@gmail.com',
     tel: '+5591989346161',
@@ -69,7 +67,7 @@ export const DATA = {
       href: 'https://hubble.social',
       badges: [],
       location: 'San Francisco, CA (Remote)',
-      title: 'Software Engineer',
+      title: 'Founding Engineer',
       logoUrl: '/hubble.png',
       start: 'Oct 2024',
       end: 'Present',
@@ -190,6 +188,48 @@ export const DATA = {
       ],
       image: 'https://opengraph.githubassets.com/1/luccardoso51/ticket-project',
       video: ''
+    },
+    {
+      title: 'AI SaaS',
+      href: 'https://github.com/luccardoso51/AI-Saas',
+      dates: '2023',
+      active: true,
+      description:
+        'Multi-modal AI SaaS platform with conversation, code generation, image, music, and video generation tools. Features a freemium model with usage limits and subscription management.',
+      technologies: ['Next.js', 'TypeScript', 'Prisma', 'Tailwind CSS'],
+      links: [
+        {
+          type: 'Source',
+          href: 'https://github.com/luccardoso51/AI-Saas',
+          icon: <Icons.github className="size-3" />
+        }
+      ],
+      image: 'https://opengraph.githubassets.com/1/luccardoso51/AI-Saas',
+      video: ''
+    },
+    {
+      title: 'StoryCraft',
+      href: 'https://github.com/luccardoso51/AI-story-frontend',
+      dates: '2024',
+      active: true,
+      description:
+        'AI-powered story generator for kids. Creates custom stories with AI-generated illustrations, a personal story library, and audio narration. Built as a full-stack mobile app.',
+      technologies: ['React Native', 'TypeScript', 'Node.js'],
+      links: [
+        {
+          type: 'Frontend',
+          href: 'https://github.com/luccardoso51/AI-story-frontend',
+          icon: <Icons.github className="size-3" />
+        },
+        {
+          type: 'Backend',
+          href: 'https://github.com/luccardoso51/AI-story-backend',
+          icon: <Icons.github className="size-3" />
+        }
+      ],
+      image:
+        'https://opengraph.githubassets.com/1/luccardoso51/AI-story-frontend',
+      video: ''
     }
   ],
   hackathons: [
@@ -199,7 +239,7 @@ export const DATA = {
       location: 'Brazil',
       description:
         'Winner of the TecBan Hackathon. The gig economy is a latent reality, worsened by COVID-19 — emergency aid revealed 46 million Brazilians, mostly informal workers, previously invisible. We built Bicos, an app for connecting and hiring gig services with direct bank payment. Service providers get bank transaction history, direct payments to their account, microcredit, and easy ATM withdrawals. Bicos was born to democratize Open Banking access for those who were previously invisible.',
-      links: [],
+      links: []
     },
     {
       title: 'beHome — Sharing from Home',
@@ -207,8 +247,8 @@ export const DATA = {
       location: 'Brazil',
       description:
         'A platform for sharing experiences, tips, and help during the COVID-19 quarantine. Anyone can support others by sharing relevant content across various categories. High-risk users can request help from the community. Built a functional MVP using Node.js on the backend, React.js on the web frontend, and React Native on mobile.',
-      links: [],
-    },
+      links: []
+    }
   ] as Array<{
     title: string;
     dates: string;
