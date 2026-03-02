@@ -12,7 +12,18 @@
       "Bash(.npmrc:*)",
       "Bash(pnpm lint:*)",
       "Bash(pnpm build:*)",
-      "Bash(git:*)"
+      "Bash(git:*)",
+      "Bash(vercel:*)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm:*)",
+      "Bash(export:*)",
+      "Bash(PATH=\"/Users/lucasrodrigues/.nvm/versions/node/v22.11.0/bin:/usr/local/bin:/usr/bin:/bin:/Users/lucasrodrigues/Library/pnpm\" printf y\\\\n:*)",
+      "WebFetch(domain:www.linkedin.com)",
+      "WebSearch",
+      "WebFetch(domain:rocketreach.co)",
+      "Bash(curl:*)",
+      "Bash(xxd:*)",
+      "WebFetch(domain:lucascardoso.com)"
     ]
   }
 }

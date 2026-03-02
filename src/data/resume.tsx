@@ -135,6 +135,48 @@ export const DATA = {
   ],
   projects: [
     {
+      title: 'StoryCraft',
+      href: 'https://github.com/luccardoso51/AI-story-frontend',
+      dates: '2024',
+      active: true,
+      description:
+        'AI-powered story generator for kids. Creates custom stories with AI-generated illustrations, a personal story library, and audio narration. Built as a full-stack mobile app.',
+      technologies: ['React Native', 'TypeScript', 'Node.js'],
+      links: [
+        {
+          type: 'Frontend',
+          href: 'https://github.com/luccardoso51/AI-story-frontend',
+          icon: <Icons.github className="size-3" />
+        },
+        {
+          type: 'Backend',
+          href: 'https://github.com/luccardoso51/AI-story-backend',
+          icon: <Icons.github className="size-3" />
+        }
+      ],
+      image:
+        'https://opengraph.githubassets.com/1/luccardoso51/AI-story-frontend',
+      video: ''
+    },
+    {
+      title: 'AI SaaS',
+      href: 'https://github.com/luccardoso51/AI-Saas',
+      dates: '2023',
+      active: true,
+      description:
+        'Multi-modal AI SaaS platform with conversation, code generation, image, music, and video generation tools. Features a freemium model with usage limits and subscription management.',
+      technologies: ['Next.js', 'TypeScript', 'Prisma', 'Tailwind CSS'],
+      links: [
+        {
+          type: 'Source',
+          href: 'https://github.com/luccardoso51/AI-Saas',
+          icon: <Icons.github className="size-3" />
+        }
+      ],
+      image: 'https://opengraph.githubassets.com/1/luccardoso51/AI-Saas',
+      video: ''
+    },
+    {
       title: 'DropDrive',
       href: 'https://github.com/luccardoso51/DropDrive-frontend',
       dates: '2022',
@@ -187,48 +229,6 @@ export const DATA = {
         }
       ],
       image: 'https://opengraph.githubassets.com/1/luccardoso51/ticket-project',
-      video: ''
-    },
-    {
-      title: 'AI SaaS',
-      href: 'https://github.com/luccardoso51/AI-Saas',
-      dates: '2023',
-      active: true,
-      description:
-        'Multi-modal AI SaaS platform with conversation, code generation, image, music, and video generation tools. Features a freemium model with usage limits and subscription management.',
-      technologies: ['Next.js', 'TypeScript', 'Prisma', 'Tailwind CSS'],
-      links: [
-        {
-          type: 'Source',
-          href: 'https://github.com/luccardoso51/AI-Saas',
-          icon: <Icons.github className="size-3" />
-        }
-      ],
-      image: 'https://opengraph.githubassets.com/1/luccardoso51/AI-Saas',
-      video: ''
-    },
-    {
-      title: 'StoryCraft',
-      href: 'https://github.com/luccardoso51/AI-story-frontend',
-      dates: '2024',
-      active: true,
-      description:
-        'AI-powered story generator for kids. Creates custom stories with AI-generated illustrations, a personal story library, and audio narration. Built as a full-stack mobile app.',
-      technologies: ['React Native', 'TypeScript', 'Node.js'],
-      links: [
-        {
-          type: 'Frontend',
-          href: 'https://github.com/luccardoso51/AI-story-frontend',
-          icon: <Icons.github className="size-3" />
-        },
-        {
-          type: 'Backend',
-          href: 'https://github.com/luccardoso51/AI-story-backend',
-          icon: <Icons.github className="size-3" />
-        }
-      ],
-      image:
-        'https://opengraph.githubassets.com/1/luccardoso51/AI-story-frontend',
       video: ''
     }
   ],

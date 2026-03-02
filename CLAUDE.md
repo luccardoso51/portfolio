@@ -17,7 +17,7 @@ Portfolio is live and personalized with Lucas Cardoso's profile data.
 
 ## Deployment
 
-- **Production URL**: https://portfolio-one-sandy-84.vercel.app
+- **Production URL**: https://lucascardoso.com (also https://portfolio-one-sandy-84.vercel.app)
 - **GitHub**: https://github.com/luccardoso51/portfolio
 - Auto-deploys on every push to `main` via Vercel GitHub integration.
 - Manual deploy: `vercel --prod` (CLI already authenticated)
