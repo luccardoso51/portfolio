@@ -192,7 +192,24 @@ export const DATA = {
       video: ''
     }
   ],
-  hackathons: [] as Array<{
+  hackathons: [
+    {
+      title: 'BICOS',
+      dates: '2020',
+      location: 'Brazil',
+      description:
+        'Winner of the TecBan Hackathon. The gig economy is a latent reality, worsened by COVID-19 — emergency aid revealed 46 million Brazilians, mostly informal workers, previously invisible. We built Bicos, an app for connecting and hiring gig services with direct bank payment. Service providers get bank transaction history, direct payments to their account, microcredit, and easy ATM withdrawals. Bicos was born to democratize Open Banking access for those who were previously invisible.',
+      links: [],
+    },
+    {
+      title: 'beHome — Sharing from Home',
+      dates: 'Mar 2020 - Apr 2020',
+      location: 'Brazil',
+      description:
+        'A platform for sharing experiences, tips, and help during the COVID-19 quarantine. Anyone can support others by sharing relevant content across various categories. High-risk users can request help from the community. Built a functional MVP using Node.js on the backend, React.js on the web frontend, and React Native on mobile.',
+      links: [],
+    },
+  ] as Array<{
     title: string;
     dates: string;
     location: string;
