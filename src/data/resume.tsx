@@ -13,7 +13,7 @@ export const DATA = {
   location: 'Belém, PA, Brazil',
   locationLink: 'https://www.google.com/maps/place/Belem,State+of+Para,Brazil',
   description:
-    'Full Stack Engineer passionate about building innovative solutions that drive user satisfaction and business growth.',
+    'Founding Engineer passionate about building innovative solutions that drive user satisfaction and business growth.',
   summary:
     "I'm a Full Stack Engineer with a background spanning software development, product management, and UI/UX design. I specialize in JavaScript, TypeScript, React, Next.js, React Native, and Node.js, and thrive in cross-functional teams where I can combine technical expertise with a user-centric mindset.",
   avatarUrl: '/me.jpg',
