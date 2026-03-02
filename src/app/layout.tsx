@@ -27,13 +27,44 @@ export const metadata: Metadata = {
     template: `%s | ${DATA.name}`,
   },
   description: DATA.description,
+  keywords: [
+    "Full Stack Engineer",
+    "Software Engineer",
+    "React",
+    "Next.js",
+    "TypeScript",
+    "React Native",
+    "Node.js",
+    "Lucas Cardoso",
+  ],
+  authors: [{ name: DATA.name, url: DATA.url }],
+  creator: DATA.name,
   openGraph: {
-    title: `${DATA.name}`,
+    title: DATA.name,
     description: DATA.description,
     url: DATA.url,
-    siteName: `${DATA.name}`,
+    siteName: DATA.name,
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: `${DATA.name} — Full Stack Engineer`,
+      },
+    ],
+  },
+  twitter: {
+    title: DATA.name,
+    description: DATA.description,
+    card: "summary_large_image",
+    creator: "@lucascardoso",
+    images: ["/opengraph-image"],
+  },
+  icons: {
+    icon: "/me.jpg",
+    apple: "/me.jpg",
   },
   robots: {
     index: true,
@@ -45,14 +76,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  twitter: {
-    title: `${DATA.name}`,
-    card: "summary_large_image",
-  },
-  verification: {
-    google: "",
-    yandex: "",
   },
 };
 
