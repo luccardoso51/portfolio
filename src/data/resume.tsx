@@ -226,7 +226,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />
         }
       ],
-      image: 'https://opengraph.githubassets.com/1/luccardoso51/ticket-project',
+      image: '/ticket-project-logo.png',
       video: ''
     }
   ],
