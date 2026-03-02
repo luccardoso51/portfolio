@@ -172,7 +172,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />
         }
       ],
-      image: 'https://opengraph.githubassets.com/1/luccardoso51/AI-Saas',
+      image: '/AI-SAAS-logo.png',
       video: ''
     },
     {
@@ -190,8 +190,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />
         }
       ],
-      image:
-        'https://opengraph.githubassets.com/1/luccardoso51/DropDrive-frontend',
+      image: '/drop-drive-logo.png',
       video: ''
     },
     {
@@ -209,7 +208,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />
         }
       ],
-      image: 'https://opengraph.githubassets.com/1/luccardoso51/FindDEV',
+      image: '/find-dev-logo.png',
       video: ''
     },
     {
