@@ -5,6 +5,7 @@ import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { FlickeringGrid } from "@/components/magicui/flickering-grid";
 
@@ -28,14 +29,20 @@ export const metadata: Metadata = {
   },
   description: DATA.description,
   keywords: [
+    "Lucas Cardoso",
+    "Founding Engineer",
     "Full Stack Engineer",
     "Software Engineer",
+    "Software Developer",
     "React",
     "Next.js",
     "TypeScript",
     "React Native",
+    "JavaScript",
     "Node.js",
-    "Lucas Cardoso",
+    "Brazil",
+    "Belém",
+    "lucascardoso.com",
   ],
   authors: [{ name: DATA.name, url: DATA.url }],
   creator: DATA.name,
@@ -112,6 +119,18 @@ export default function RootLayout({
             <Navbar />
           </TooltipProvider>
         </ThemeProvider>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-DC4HJNGM0N"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-DC4HJNGM0N');
+          `}
+        </Script>
       </body>
     </html>
   );

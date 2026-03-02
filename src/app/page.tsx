@@ -13,9 +13,27 @@ import { ArrowUpRight } from "lucide-react";
 
 const BLUR_FADE_DELAY = 0.04;
 
+const personJsonLd = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: DATA.name,
+  url: DATA.url,
+  jobTitle: "Founding Engineer",
+  sameAs: [
+    "https://github.com/luccardoso51",
+    "https://linkedin.com/in/lucascardoso51",
+  ],
+  knowsAbout: ["React", "Next.js", "TypeScript", "Node.js", "React Native"],
+}).replace(/</g, "\\u003c");
+
 export default function Page() {
   return (
     <main className="min-h-dvh flex flex-col gap-14 relative">
+      <script
+        type="application/ld+json"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: personJsonLd }}
+      />
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 gap-y-6 flex flex-col md:flex-row justify-between">
