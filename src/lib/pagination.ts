@@ -68,18 +68,19 @@ export function getPaginationMeta(
 }
 
 /**
- * Validate and normalize page number
+ * Validate and normalize page number.
+ *
+ * Always returns a finite integer in [1, max(1, floor(maxPage))].
+ * Strings keep lenient parseInt prefix parsing ("2abc" -> 2). Non-finite,
+ * absent, unparseable, zero, or negative pages resolve to 1; fractional pages
+ * are floored. An unusable maxPage (zero, negative, NaN, Infinity) acts as 1.
  */
 export function normalizePage(page: number | string | undefined, maxPage: number): number {
-  if (typeof page === "string") {
-    const parsed = parseInt(page, 10);
-    if (isNaN(parsed) || parsed < 1) return 1;
-    return Math.min(parsed, maxPage);
-  }
-  if (typeof page === "number") {
-    if (page < 1) return 1;
-    return Math.min(page, maxPage);
-  }
-  return 1;
+  const lastPage = Number.isFinite(maxPage) ? Math.max(1, Math.floor(maxPage)) : 1;
+  const requested = typeof page === "string" ? parseInt(page, 10) : page;
+  if (typeof requested !== "number" || !Number.isFinite(requested)) return 1;
+  const whole = Math.floor(requested);
+  if (whole < 1) return 1;
+  return Math.min(whole, lastPage);
 }
 
