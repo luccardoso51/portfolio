@@ -6,6 +6,7 @@ import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
 import ContactSection from "@/components/section/contact-section";
+import GallerySection from "@/components/section/gallery-section";
 import HackathonsSection from "@/components/section/hackathons-section";
 import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
@@ -153,9 +154,12 @@ export default function Page() {
           <ProjectsSection />
         </BlurFade>
       </section>
+      <section id="gallery">
+        <GallerySection />
+      </section>
       {DATA.hackathons.length > 0 && (
         <section id="hackathons">
-          <BlurFade delay={BLUR_FADE_DELAY * 13}>
+          <BlurFade delay={BLUR_FADE_DELAY * 15}>
             <HackathonsSection />
           </BlurFade>
         </section>
