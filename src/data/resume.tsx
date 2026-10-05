@@ -257,5 +257,6 @@ export const DATA = {
     win?: string;
     icon?: string;
     links: Array<{ title: string; icon: ReactNode; href: string }>;
-  }>
+  }>,
+  gallery: [] as Array<{ src: string; alt: string; caption: string }>
 };

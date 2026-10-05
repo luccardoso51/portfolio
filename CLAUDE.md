@@ -31,6 +31,7 @@ All site content lives in **`src/data/resume.tsx`**. Edit only this file to upda
 - Work experience (`work[]`) — dates are estimates, verify against LinkedIn
 - Education (`education[]`) — placeholder, needs real data
 - Projects (`projects[]`)
+- Gallery (`gallery[]`) — array of `{ src, alt, caption }`; each entry with a valid `src` renders a photo tile (image + caption), while missing/empty/broken entries render dashed placeholder tiles. The grid always shows 6 tiles. Add photos by dropping files into `/public/` and filling in entries here.
 - Skills (`skills[]`) — must use imported SVG components from `src/components/ui/svgs/`
 
 ## Assets
